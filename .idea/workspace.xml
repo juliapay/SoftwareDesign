@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3081f2a4-c31b-4dfe-a731-8ae3ccd9464d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/Adapter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/BigTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/DuckAdapterOhneSingelton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/Mallard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/DucksAndTurkeys/TurkeyAdapterMitSingelton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/LegacyDataSource/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/LegacyDataSource/LegacyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/LegacyDataSource/LegacySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/LegacyDataSource/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/LegacyDataSource/SQLDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/AudioPlayerMP2Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/AudioPlayerMP3Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/IPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/MP4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/MpegPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/MediaPLayer/MultiMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/DocxPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/PdfAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/PdfReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/PdfDocx/TextEditorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/Fernbedienung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/Kommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/Licht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/LichtAnKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/LichtAusKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/TVKanalRaufKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/CommandPatternTV/TVKanalRunterKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Fernbedienung/EinfachereFernbedienung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Fernbedienung/Kommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Fernbedienung/Licht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Fernbedienung/LichtAnKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Fernbedienung/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/Kommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/LautstaerkeErhoehenKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/LautstaerkeVerringernKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/MusikAusschaltenKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/MusikEinschaltenKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/MusikFernbedienung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Musiksteuerung/MusikSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/Fernbedienung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/KanalAusschaltenKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/KanalAuswahlKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/KanalRaufKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/KanalRunterKommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/Kommando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/TVSteuerung/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/CafeLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/Getraenk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/Milch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/Sirup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/ZamCafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Cafe/ZutatDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Decorator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Kaese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Magherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Oliven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Paprika.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Pizzeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Salami.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/Schinken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Pizza/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Charakter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/CharakterDekorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Feuerball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Heilung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Krieger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Magier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Schild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/Schwert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rollenspiel/SpielSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Facade.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/AutoFabrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/AutoTyp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/AutoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/FabrikDeutschland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/FabrikEngland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/LKW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/PKW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AutoFabrik/SUV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/AndroidFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/ComputerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Desktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/IBMFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Computer/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Factory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/GrazMushroomPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/GrazPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/GrazVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/WienMushroomPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/WienPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Pizza/WienVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/Iterator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorEinkaufstasche/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorEinkaufstasche/ArtikelListeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorEinkaufstasche/Einkaufstasche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorEinkaufstasche/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorPattern/WoerterListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iterator/IteratorPattern/WordListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/Aktivitaet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/FitnessTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/Fortschritt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/Geraete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/SmartWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/FitnessTracker/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/AppClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/ConsoleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/EventData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/GameClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/GameServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/GameServer/RoleplayServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/AbonnentIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/MedienVerlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/PrintAbbonnentIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/SMSAbbonnentIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/MediaVerlag/WebAbbonnentIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/NewsServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/NewsServer/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/Abonnent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/Medienverlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/ObserverPattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/PrintAbonnent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/SMSAbonnent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPattern/WebAbonnent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/NoteBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/PodcastServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/Potcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/PotcastPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternPotcast/SmartWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/Potcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/PotcastPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/PotcastServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/SmartWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/PotcastServer/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/Singelton.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/CafeLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/Getraenk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/LogSingelton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/Milch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/Sirup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/ZamCafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singelton/SingeltonPattern/ZutatDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Ente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/FlatterflugVerhalten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Flugverhalten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Gummiente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Rotkopfente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/SegelFlugVerhalten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/Stockente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Ente/WatschelFlugVerhalten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/Mitarbeiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/MitarbeiterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/ProvisionGewinn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/ProvisionStrategie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Provision/ProvisionUmsatz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Strategy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/DistanceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/Parcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/PriceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/Transporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/Versandkostenberechnung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Transporter/WeightStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/Template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/TemplatePattern/CaffeineBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/TemplatePattern/ChaiTea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/TemplatePattern/IceCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/TemplatePattern/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pTW6X6zaujBZtIqHEqxf0mtEZM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdapterPatternDucksAndTurkeys.Main.executor": "Run",
+    "Application.Command.Fernbedienung.Main.executor": "Run",
+    "Application.CommandPatternFernbedienung.Main.executor": "Run",
+    "Application.FactorPatternAutoFabrik.Main.executor": "Run",
+    "Application.FactoryPatternPizza.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObserverPattern.Main.executor": "Run",
+    "Application.ObserverPatternPotcast.Main.executor": "Run",
+    "Application.Versandkostenberechnung.executor": "Run",
+    "Application.ZamCafe.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Julia/julia/workingwoman/SWENG C&M/SWENG/FH CAMPUS 02/Seminare/Software Design/SoftwareDesignUebung",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Julia/julia/workingwoman/SWENG C&M/SWENG/FH CAMPUS 02/Seminare/Software Design/Design Pattern/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="CommandPatternFernbedienung" />
+      <recent name="FactoryPatternPizza" />
+      <recent name="ObserverPattern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\Decorator" />
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\Observer" />
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\Command" />
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\Adapter" />
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\StrategyPatternTransporter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julia\julia\workingwoman\SWENG C&amp;M\SWENG\FH CAMPUS 02\Seminare\Software Design\Design Pattern\src\FactoryPatter_Computer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="IteratorEinkaufstasche" />
+      <recent name="CommandPatternTV" />
+      <recent name="FactorPatternAutoFabrik" />
+      <recent name="FactoryPatternPizza" />
+      <recent name="DecoratorPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Command.Fernbedienung.Main">
+    <configuration name="Command.Fernbedienung.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Command.Fernbedienung.Main" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Command.Fernbedienung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factory.AutoFabrik.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory.AutoFabrik.Main" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory.AutoFabrik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.DucksAndTurkeys.Main" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adapter.DucksAndTurkeys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverPatternPotcast.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverPatternPotcast.Main" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObserverPatternPotcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Versandkostenberechnung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.Transporter.Versandkostenberechnung" />
+      <module name="Design Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.Transporter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Command.Fernbedienung.Main" />
+        <item itemvalue="Application.Factory.AutoFabrik.Main" />
+        <item itemvalue="Application.Versandkostenberechnung" />
+        <item itemvalue="Application.ObserverPatternPotcast.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3081f2a4-c31b-4dfe-a731-8ae3ccd9464d" name="Changes" comment="" />
+      <created>1732790373754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732790373754</updated>
+      <workItem from="1733382932718" duration="4249000" />
+      <workItem from="1733387915191" duration="4352000" />
+      <workItem from="1733394215646" duration="2181000" />
+      <workItem from="1733398842045" duration="1699000" />
+      <workItem from="1733400608400" duration="255000" />
+      <workItem from="1733401433585" duration="976000" />
+      <workItem from="1733402501870" duration="3998000" />
+      <workItem from="1733406589180" duration="1035000" />
+      <workItem from="1733987552148" duration="57000" />
+      <workItem from="1734592224487" duration="9601000" />
+      <workItem from="1734605132935" duration="1032000" />
+      <workItem from="1734609320468" duration="6992000" />
+      <workItem from="1734616927408" duration="1525000" />
+      <workItem from="1735301042705" duration="159000" />
+      <workItem from="1735886491358" duration="1251000" />
+      <workItem from="1736407345051" duration="9087000" />
+      <workItem from="1736419487654" duration="2161000" />
+      <workItem from="1736423955212" duration="8946000" />
+      <workItem from="1736445680857" duration="19000" />
+      <workItem from="1737011915540" duration="2482000" />
+      <workItem from="1737018081799" duration="5491000" />
+      <workItem from="1737111158644" duration="2368000" />
+      <workItem from="1737355148869" duration="7227000" />
+      <workItem from="1737366834926" duration="9318000" />
+      <workItem from="1737544185444" duration="2307000" />
+      <workItem from="1737722730280" duration="11574000" />
+      <workItem from="1737881702629" duration="2385000" />
+      <workItem from="1737884242553" duration="508000" />
+      <workItem from="1737887960058" duration="3598000" />
+      <workItem from="1738305514946" duration="6462000" />
+      <workItem from="1738315198009" duration="930000" />
+      <workItem from="1738322280553" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
