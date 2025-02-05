@@ -1,4 +1,4 @@
-package Template.TemplatePattern;
+package Template.TeeTrinken;
 //wichtig die einzelnen Klassen leiten sich von CaffeinBeverage ab
 public class IceCoffee extends CaffeineBeverage{
 

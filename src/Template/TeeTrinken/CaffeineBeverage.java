@@ -1,4 +1,4 @@
-package Template.TemplatePattern;
+package Template.TeeTrinken;
 
 public abstract class CaffeineBeverage {
 
