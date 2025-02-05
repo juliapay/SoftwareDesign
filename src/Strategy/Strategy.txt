@@ -1,4 +1,10 @@
 //*****************************
+1. Möglichkeit: Interface wird direkt in der Objektklasse verwendet: ENTE
+2. Möglichkeit: Interface wird in einer Managerklasse verwendet: PROVISION
+//******************************
+Achte was dem Interface übergeben werden muss: TRANSPORTER
+//******************************
+
 // STRATEGY = Abstrakte Strategie
 //       Definiert die Schnittstelle für Algorithmen = execute()
 
